@@ -1,0 +1,11 @@
+# números de série desta máquina: nunca versionar
+smbios.local
+# gerados/baixados pelo make-efi.py (dist/ tem a EFI com os números de série)
+dist/
+build/
+# binários da Apple: não podem ser redistribuídos
+EFI/OC/Drivers/HfsPlus.efi
+com.apple.recovery.boot/
+*.dmg
+.DS_Store
+__pycache__/
